@@ -99,7 +99,7 @@ export default function SearchFilters() {
                 ))}
                 {!loading && !locationData?.length && (
                   <Flex justifyContent='center' alignItems='center' flexDir='column' marginTop='5' marginBottom='5' >
-                    <Image src={noresult} />
+                    <Image alt='search result image' src={noresult} />
                     <Text fontSize='xl' marginTop='3'>
                       Waiting to search!
                     </Text>
